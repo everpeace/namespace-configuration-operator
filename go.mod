@@ -17,6 +17,7 @@ require (
 replace (
 	github.com/Azure/go-autorest => github.com/Azure/go-autorest v13.3.2+incompatible // Required by OLM
 	k8s.io/client-go => k8s.io/client-go v0.18.2 // Required by prometheus-operator
+    github.com/redhat-cop/operator-utils => github.com/everpeace/operator-utils v0.3.5-0.20200825085800-155ece87160e
 )
 
 go 1.14
